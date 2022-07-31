@@ -1,0 +1,573 @@
+body{
+    margin: 0px;
+    background-color: #C1997E;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	width: 100%;
+}
+
+header {
+background-color: #E8DFCD;
+width:100%
+}
+
+nav {
+	padding: 0px 50px;
+}
+
+nav ul {
+	display:inline-block;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0px 60px;
+	padding: 10px;
+	font-weight: 800;
+	position: relative;
+}
+
+nav li a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+} 
+
+nav li a:hover {
+	color: #444444;
+}
+
+nav li a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #c1997f;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav li a:hover::before {
+	width: 100%;
+}	
+
+.contenedorImagen {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+	width:100%
+}
+
+main{ 
+	width: 100% 
+}
+
+.imagenciudad {	
+	background-image: url(../imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	height: 420px;
+	width: 100%;
+	position: relative;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 100px auto;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textoImagen {
+    margin: 125px 0;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.8048261540944502) 0%, rgba(0,0,0,0.46589057986475846) 100%);
+}
+
+.introduccion {
+    background-color: #E8DFCD;
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.alineacion-centrada {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.introduccion p {
+    margin: 0 30px;
+    padding: 25px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* FOOTER */
+
+
+footer {
+	height:auto;
+	background-color: #E8DFCD;
+}
+
+.margenFooter {
+	margin-left: 100px;
+}
+
+.columnasFooter {
+	width: 350px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.titulosFooter {
+	font-size: 25px;
+	padding-top: 40px;
+	padding-bottom: 0;
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+.columnasFooter li {
+	display: block;
+	font-size: 15px;
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
+.segundaFila {	
+	display: block;
+}
+
+.ofertas, .descarga {
+	font-size: 25px;
+	padding-top: 40px;
+	margin-left: 40px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.descarga {
+	padding-right: 372px;
+}
+
+#apple, #android {
+	margin-top: 15px;
+	margin-left: 40px;
+	width:204px;
+	height:56px;	
+	display: inline-block;
+	font-size: 0px;
+}
+
+#apple {
+	background: url(../imagenes/sprites.png) -192px -66px;
+}
+
+#android{
+	background: url(../imagenes/sprites.png) -192px 0px;
+}
+
+.facebook {
+	width:64px;
+	height:64px;
+	display:inline-block;
+	margin-left: 250px;
+	position: relative;
+}
+
+#facebooklink {
+	width:64px;
+	height:64px;
+	background: url(../imagenes/sprites.png) 0 -66px;
+	display:inline-block;
+	font-size: 0;
+}
+
+#facebooklink:hover {
+	background: url(../imagenes/sprites.png) 0 0;
+}
+
+.instagram, .twitter {
+	width:64px;
+	height:64px;
+	display:inline-block;
+}
+
+#instagramlink {
+	width:64px;
+	height:64px;
+	background: url(../imagenes/sprites.png) -64px -66px;
+	display:inline-block;
+	font-size: 0;
+	position: relative;
+}
+
+#instagramlink:hover {
+	background: url(../imagenes/sprites.png) -64px 0px;
+}
+
+#twitterlink {
+	width:64px;
+	height:64px;
+	background: url(../imagenes/sprites.png) -128px -66px;
+	display:inline-block;
+	font-size: 0;
+	position: relative;
+}
+
+#twitterlink:hover {
+	background: url(../imagenes/sprites.png) -128px 0px;
+}
+
+summary {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+
+/* INFORMACION */
+
+
+.fondo{
+    background-color: #C1997E;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info {
+    background-color: #E8DFCD;
+    width: 1200px;
+    margin: 25px auto;
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    padding-top: 25px;
+}
+
+h3 {
+    margin-left: 25px;
+}
+
+h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    margin: 0 30px;
+    padding: 25px;
+    font-size: 17px;
+}
+
+.div-mapa, .div-idioma {
+    text-align: center;
+}
+
+.mapa {
+    width: 400px;
+    height: 150px;
+}
+
+.texto-mapa {
+    display: inline-block;
+    width: 550px;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 0;
+}
+
+.imagen-idioma {
+    margin-right: 30px;
+}
+
+.texto-idioma {
+    width: 900px;
+    display: inline-block;
+    text-align: left;
+}
+
+.imagen-moneda {
+    margin-left: 30px;
+}
+
+.texto-moneda {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.div-transporte p {
+    text-align: center;
+}
+
+.imagen-autobus, .imagen-barco {
+    margin-left: 75px;
+}
+
+.imagen-avion {
+    margin-right: 75px;
+}
+
+.texto-uno, .texto-tres, .texto-cuatro {
+    display: inline-block;
+    width: 800px;
+}
+
+
+/* LUGARES TURISTICOS */	
+
+
+.tarjetas {
+	width:965px;
+	margin: auto;
+}
+
+.tarjetas .tarjetas-lugares {
+	display:inline-block;
+	width:450px;
+	height:282px;
+	margin:20px 15px;
+	background-color: #E8DFCD;
+	background-repeat: no-repeat;
+	vertical-align:top;
+	box-shadow: 2px 2px 5px #745a49;
+    position: relative;
+}
+
+.tarjetas-lugares {
+	margin: 0 auto;
+}
+
+.tarjetas-lugares:last-child {
+	margin-right: 0px;
+}
+
+.imagen-lugares {
+	display: block;
+}
+
+.tarjeta-info {
+	position: absolute;
+	bottom: 100%;
+	background: rgb(0,0,0);
+	background: radial-gradient(circle, rgba(0,0,0,0.5102415966386555) 0%, rgba(0,0,0,0.4962359943977591) 100%);
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .5s ease;
+}
+
+.tarjetas-lugares:hover .tarjeta-info {
+	bottom: 0;
+	height: 100%;
+}
+
+.tarjeta-info h3 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: 20px;
+}
+
+.tarjeta-info p {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin: 0px 20px;
+}
+
+
+/* CONTACTO */
+
+
+#fondoFormulario{
+	background-color: #C1997E;
+}
+
+.contenedor{
+    margin: 50px auto;
+    width: 450px;
+    padding: 15px 25px;
+    background: #E8DFCD;
+    border:solid 1px #000000;
+    box-shadow: 2px 2px 5px rgb(90, 90, 90);
+    border-radius: 10px
+}
+
+.titulo-contacto {
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+legend{
+	display: block;
+	padding-top:10px;
+	color: #9b7963;
+	font-weight:bold;
+}
+
+fieldset {
+	width:340px;
+	margin: 0 auto;
+}
+
+form input{
+	width:350px;
+	padding:5px;
+	margin-bottom: 10px;
+}
+
+.casilla {
+	width: 40px;
+}
+
+.form div {
+	padding-top:7px;
+}
+
+#envio {
+	background: #c1997f;
+	border: solid 1px #000000;
+	color: rgb(0, 0, 0);
+	width: 100px;
+	margin: 10px 175px;
+	border-radius: 10px
+}
+
+#envio:hover {
+	background: #cfa68b;
+}
+
+#envio:active {
+	background: #c1997f;
+	border-color: #000000;
+}
+
+strong {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+.adjuntar-archivo {
+margin: 0 auto;
+}
+
+.adjuntar-archivo, .inputEstilo{
+	margin:10px 20px;
+}
+
+/* ALOJAMIENTO */
+
+
+.tarjeta-hoteles{
+	width:70%;
+	margin: 40px auto;
+	height:auto;
+	border: solid 1px;
+	border-radius:5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	display:flex;
+	background-color: #E8DFCD;
+}
+
+.tarjeta-hoteles img {
+	width:200px;
+	height:200px;
+	margin:20px;
+	display:flex;
+}
+
+.tarjeta-hoteles h2 {
+	margin-top: 20px;
+	font-size: 25px;
+	color: black;
+	display: inline-block;
+	width:300px;
+}
+
+.comentarios-calificacion {
+	display:inline-block;
+	vertical-align:top;
+	margin-left:25%;
+}
+
+.comentarios {
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top:30px;
+	display:inline-block;
+}
+
+.calificacion{
+	padding: 9px 6px;
+	background-color: #9b7963;
+	color:white;
+	margin-left:20px;
+	border-radius:5px;
+	font-weight:bold;
+}
+
+.ubicacion{
+	width:100%;
+	display: block;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-size: 15px;
+	color: black;
+}
+
+.resena {
+	width:60%;
+	display: inline-block;
+	margin-bottom:10px;
+	font-size: 15px;
+	margin-top:10px;
+}
+
+
+/* GRACIAS */
+
+
+.primertitulo {
+	text-align: center;
+	width: 800px;
+	margin: 50px auto;
+	color: #574437;
+}
+
+.primertitulo h1 {
+	font-size: 50px;
+	margin: 50px;
+}
+
+.subtitulo {
+	font-weight: 550;
+	font-size: 25px;
+	margin: 20px auto;
+}
+
+.informacion {
+	color: black;
+	font-size:20px;
+	width: 500px;
+	margin: 25px auto;
+}

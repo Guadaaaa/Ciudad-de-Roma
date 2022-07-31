@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width:480px)"/>
+    <title>Roma</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="turismo.html">Lugares Turísticos</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+                <li><a href="alojamiento.html">Alojamiento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="fondoFormulario">
+        <div class="contenedor">
+            <div class="lineaColor"></div>
+            <h1 class="h1 titulo-contacto">Contactenos</h1>
+
+        <form action="#" method="POST" enctype="multipart/form-data">
+        
+            <div class="form">
+                
+                <fieldset>
+                    <legend class="subtitulo-contacto">Completa tus datos para obtener información</legend>
+                    <input type="text" name="Nombre" placeholder="Nombre" required />
+                    <input type="text" name="Apellido" placeholder="Apellido"  />
+                    <input type="email" name="email" placeholder="Correo" autocomplete="off" required />
+                    <input type="tel" name="Telefono"  placeholder="Teléfono" required />
+                </fieldset>
+
+                <fieldset>
+                    <legend class="subtitulo-contacto"> Qué información querés recibir? </legend>
+                        <div>
+                            <input id="como-viajar" class="casilla" type="checkbox" name="cv" value="cv" />
+                            <label for="como-viajar">¿Cómo viajar?</label>
+                        </div>
+                        <div>
+                            <input id="donde-hospedarme" class="casilla" type="checkbox" name="dh" value="dh" />
+                            <label for="donde-hospedarme">¿Dónde hospedarme?</label>
+                        </div>		
+                        <div>
+                            <input id="que-visitar" class="casilla" type="checkbox" name="qv" value="qv" />
+                            <label for="que-visitar">¿Que visitar?</label>
+                        </div>	
+                        <div>
+                            <input id="trabajos" class="casilla" type="checkbox" name="tr" value="tr" />
+                            <label for="trabajos">Trabajos en Roma</label>
+                        </div>
+                </fieldset>
+                <div class="adjuntar-archivo">
+                    <span class="subtitulo-contacto"> Si tu motivo es trabajo, adjunta tu CV para que podamos enviarte información más específica </span>
+                    
+                    <input class="inputEstilo" type="file" name="adjunto" accept=".pdf,.doc,.docx" multiple />
+                </div>
+                <input type="submit" value="Enviar" id="envio"/>
+            </div>
+
+        </form>
+        </div>		
+        </main>
+        
+        <footer>
+            <div class="margenFooter">
+                <div class="columnasFooter">
+                    <p class="titulosFooter">Roma</p>
+                        <ul>
+                        <li>Guía Turistica</li>
+                        <li>Excursiones</li>
+                        <li>Hoteles</li>
+                        <li>Vuelos</li>
+                        </ul>
+                </div>
+    
+                <div class="columnasFooter">
+                    <p class="titulosFooter">Soporte</p>
+                        <ul class="lista-soporte">
+                        <li>Contactos</li>
+                        <li>Servicios</li>
+                        <li>Politica de privacidad</li>
+                        </ul>
+                </div>
+    
+                <div class="segundaFila">
+                    <p class="descarga">Descarga nuestra App</p>
+                    <p class="ofertas"> Siguenos</p>
+                </div>
+    
+                <div class="segundaFila">
+                    <span id="apple">Descarga App para Apple</span>
+                    <span id="android">Descarga App para android</span>
+                        <div class="facebook"><a id="facebooklink" href="#">Facebook</a></div>
+                        <div class="instagram"><a id="instagramlink" href="#">Instagram</a></div>
+                        <div class="twitter"><a id="twitterlink" href="#">Twitter</a></div>
+                        <div class="lineaDivisoria"></div>
+                </div>
+            </div>
+                
+            <details>
+            <summary><span>Datos de la entrega</span></summary>
+            <p>Guadalupe Martinez - Maquetado y Desarrollo Web - Prof. Julian Preiss - Final de primer cuatrimestre - Da Vinci - 2022</p>
+            </details>
+        </footer>
+
+</body>
+</html>

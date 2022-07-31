@@ -1,0 +1,272 @@
+
+
+/* INICIO */
+
+
+.introduccion {
+    width: 400px;
+	margin: 35px 35px;
+}
+
+.imagenciudad {
+    background-image: url(../imagenes/fondo-celular.jpg);
+    height: auto;
+}
+
+.textoImagen {
+    font-size: 30px;
+    margin: 45px 0;
+}
+
+.alineacion-centrada {
+	margin: auto;
+}
+
+
+/* INFORMACION */
+
+
+.info {
+	width: 440px;
+}
+
+main ul {
+	padding: 0;
+}
+
+main ul li {
+	width: 280px;
+	margin: auto;
+}
+
+.texto-mapa, .texto-idioma {
+	width: 375px;
+	margin: 0;
+}
+
+.texto-moneda {
+	width: 200px;
+	margin: 0;
+}
+
+.texto-uno, .texto-tres, .texto-cuatro {
+width: auto;
+}
+
+.imagen-autobus, .imagen-avion, .imagen-barco {
+	display: none;
+}
+
+
+/* LUGARES TURISTICOS */
+
+
+.tarjetas {
+	width:450px;
+	margin: 0 10px;
+	}
+	
+.tarjetas .tarjetas-lugares {
+	margin:20px 5px;
+}
+
+
+/* CONTACTO */
+
+
+.contenedor{
+    width: 350px;
+}
+
+fieldset {
+	width:300px;
+}
+
+.subtitulo-contacto {
+	font-size: 14px;
+}
+
+form input{
+	width:280px;
+}
+
+#envio {
+	margin: 10px 125px;
+}
+
+
+/* ALOJAMIENTO */
+
+
+.tarjeta-hoteles img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.tarjeta-hoteles{
+	flex-direction: column;
+	text-align:center;
+}
+
+.tarjeta-hoteles p{
+	margin: 0;
+	padding: 20px 0;
+	width: 300px;
+}
+
+.comentarios-calificacion {
+	margin: 0;
+	width: 300px;
+}
+
+.comentarios, .calificacion {
+	margin: 5px 10px;
+}
+
+.ubicacion{
+display: none;
+	}	
+
+
+/* FOOTER */
+
+
+.margenFooter {
+	margin-left: 25px;
+}
+
+.columnasFooter {
+	width: 100%;
+	display: inline-block;
+	vertical-align:top;
+	padding: 5% 0;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+}
+
+.columnasFooter li {
+	display: block;
+	font-size: 15px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:0px;
+}	
+
+.titulosFooter {
+	font-size: 25px;
+	margin: 0;
+}
+
+.lista-soporte {
+	padding-left: 14px;
+}
+
+.segundaFila {	
+	display: block;
+	width:90%;
+	margin: 0px auto;
+	padding-left:0px;
+}
+
+.descarga {
+	font-size: 1.5em;
+	padding-top: 0px;
+	margin-top:40px;
+	padding-right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	font-weight: bold;
+	display:block;
+}
+
+.ofertas {
+	display: none;
+}
+
+#apple, #android {
+	margin: 15px auto;
+	padding: 0;
+	width:204px;
+	height:56px;	
+	display: block;
+	font-size: 0px;
+}
+
+#apple {
+	background: url(../imagenes/sprites.png) -192px -66px;
+}
+
+#android{
+	background: url(../imagenes/sprites.png) -192px 0px;
+}
+
+.facebook {
+	width:64px;
+	height:64px;
+	display:inline-block;
+	margin-left:20%;
+	margin-right:auto;	
+	margin-bottom:8px;
+	margin-top:40px;
+	position: relative;
+}
+
+#facebooklink {
+	width:64px;
+	height:64px;
+	background: url(../imagenes/sprites.png) 0 -66px;
+	display:inline-block;
+	font-size: 0;
+}
+
+#facebooklink:hover {
+	background: url(../imagenes/sprites.png) 0 0;
+}
+
+.instagram, .twitter {
+	width:64px;
+	height:64px;
+	display:inline-block;
+}
+
+#instagramlink {
+	width:64px;
+	height:64px;
+	background: url(../imagenes/sprites.png) -64px -66px;
+	display:inline-block;
+	font-size: 0;
+	position: relative;
+}
+
+#instagramlink:hover {
+	background: url(../imagenes/sprites.png) -64px 0px;
+}
+
+#twitterlink {
+	width:64px;
+	height:64px;
+	background: url(../imagenes/sprites.png) -128px -66px;
+	display:inline-block;
+	font-size: 0;
+	position: relative;
+}
+
+#twitterlink:hover {
+	background: url(../imagenes/sprites.png) -128px 0px;
+}
+
+
+/* GRACIAS */
+
+
+.primertitulo {
+	width: 400px;
+}
+
+.informacion {
+	width: 350px;
+}
